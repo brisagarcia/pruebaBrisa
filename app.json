@@ -1,13 +1,13 @@
 {
   "expo": {
-    "name": "listadoUsuarios",
-    "slug": "listadoUsuarios",
+    "name": "pruebaBrisa",
+    "slug": "pruebaBrisa",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/splash-screen.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/splash-screen.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -19,12 +19,17 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/splash-screen.png",
         "backgroundColor": "#ffffff"
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/splash-screen.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "95f43a4a-89fb-4484-8ac3-f67c1ea6f48a"
+      }
     }
   }
 }
